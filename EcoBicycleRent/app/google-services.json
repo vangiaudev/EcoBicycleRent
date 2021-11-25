@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "39053827776",
+    "project_id": "ecobicyclerent",
+    "storage_bucket": "ecobicyclerent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39053827776:android:2d88a28a59d9e26f83d725",
+        "android_client_info": {
+          "package_name": "vangiau.example.ecobicyclerent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39053827776-p1k335evfm2fnm5ah12fd85ef5ai8l83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH2hPjOfVSW5fMuMxFftXDaXHqByuQkmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39053827776-p1k335evfm2fnm5ah12fd85ef5ai8l83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

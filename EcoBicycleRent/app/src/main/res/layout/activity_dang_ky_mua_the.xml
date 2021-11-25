@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKyMuaTheActivity">
+
+    <LinearLayout
+        android:id="@+id/llHuongDanDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtHuongDan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="HƯỚNG DẪN ĐĂNG KÝ"
+            android:textColor="#1F0057"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="399dp" />
+
+        <TextView
+            android:id="@+id/txtCach1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cách 1: Đối với thẻ trả trước, quý khách cần nạp tối thiểu 1.000.000 VNĐ để kích hoạt thẻ"
+            android:textColor="#f20"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <TextView
+            android:id="@+id/txtCach2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Cách 2: Đối với thẻ trả sau, quý khách cần phải liên kết với thẻ ngân hàng"
+            android:textColor="#f20"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="489dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtMoiLuaChonLoaiThe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="MỜI BẠN LỰA CHỌN LOẠI THẺ ĐĂNG KÝ"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llHuongDanDangKy" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMoiLuaChonLoaiThe">
+
+        <RadioGroup
+            android:id="@+id/rgChonLoaiThe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibtnTheTraTruoc"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bike_rental_card"
+                    tools:ignore="ContentDescription" />
+
+                <RadioButton
+                    android:id="@+id/radTheTraTruoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Thẻ trả trước"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibtnTheTraSau"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/visa_card"
+                    tools:ignore="ContentDescription" />
+
+                <RadioButton
+                    android:id="@+id/radTheTraSau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Thẻ trả sau"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnXacNhanChonThe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="161dp"
+        android:background="@drawable/custom_button_default"
+        android:text="Xác nhận chọn thẻ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
