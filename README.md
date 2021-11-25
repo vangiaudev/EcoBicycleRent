@@ -24,10 +24,10 @@
 
  
 ### 3.	 Sau khi chọn loại thẻ đăng ký, nếu là thẻ trả trước thì người dùng sẽ nhập các thông tin các nhân và số tiền nạp vào thẻ, sau đó người dùng đưa tiền nạp vào máy và nhấn “ĐĂNG KÝ MUA THẺ”. Hệ thống sẽ tiến hành kiểm tra số tiền khách hàng nạp vào có >= 1.000.000đ hay không, nếu thỏa điều kiện thì hệ thống sẽ thông báo thành công và xuất trình thẻ mượn cho khách hàng như hình bên dưới
-    <div align="left" >
+   <div align="left" >
        <img src="https://user-images.githubusercontent.com/75024999/143438402-2d2a6db8-6389-403e-b1e8-2b054d231d0e.png?raw=true" height="507px" width="240px">
        <img src="https://user-images.githubusercontent.com/75024999/143438469-b14cb93f-bdb3-464a-a6bd-30a470aec22e.png?raw=true" height="507px" width="240px">
-    </div> 
+   </div> 
 
 ### 4.	Trường hợp nếu là thẻ trả sau thì khách hàng cần liên kết với thẻ thanh toán ngân hàng. Người dùng đưa thẻ ngân hàng vào máy và tiến hành nhập mã PIN sau đó hệ thống sẽ tiến hành quét thẻ và lưu lại các thông tin trên thẻ  
   <div>
