@@ -50,3 +50,6 @@
    <div>
        <img src="https://user-images.githubusercontent.com/75024999/143438836-aaee80ad-2f64-447f-9ab1-7d7c1031c44a.png?raw=true" height="507px" width="240px">
    </div>
+
+## Giấy phép
+* [MIT](https://github.com/vangiaurecca/EcoBicycleRent/blob/master/LICENSE)
